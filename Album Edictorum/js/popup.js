@@ -15,7 +15,7 @@ document.getElementById('tbtn').addEventListener('click', newTemp);
 function newTemp() {
 	var message = document.getElementById('tempInput').value;
 	if (message === '') {
-		alert('Write an edict content, sir.');
+		alert('Please write an edict content, Sir.');
 	}
 	else {
 		var taskID = new Date().getTime();
