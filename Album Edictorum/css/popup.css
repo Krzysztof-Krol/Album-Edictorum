@@ -1,0 +1,167 @@
+/* pattern is downloaded from www.subtlepatterns.com */
+/* Icons from fontello */
+
+@font-face {
+	font-family: sao;
+	src: url(sao.otf);
+}
+
+body {
+	background-image: url("../img/fake_brick.png");
+	background-color: #000;
+	font-family: sao, Tahoma, fontello;
+	color: white;
+	text-align: center;
+	font-size: 11pt;
+	letter-spacing: 1px;
+	line-height: 2;
+}
+
+#contener {
+	width: 300px;
+	height: auto;
+	padding: 10px;
+}
+
+#logo {
+	font-family: sao, Tahoma;
+	color: gold;
+	text-align: center;
+	font-size: 15pt;
+	letter-spacing: 3px;
+}
+
+#logo h2 {
+	margin: 0px;
+}
+
+#logo img {
+	width: 40px;
+	height: 40px;
+	margin: 0px 10px 0px 10px;
+}
+
+#middle {
+	text-align: justify;
+}
+
+#content {
+	text-align: justify;
+}
+
+#content ul {
+	margin: 0;
+	padding: 0;
+}
+
+#content ul li {
+	cursor: pointer;
+	position: relative;
+	padding: 1px 15px 1px 15px;
+	background-color: #fff;
+	color: #000;
+	margin-top: 5px;
+	list-style-type: none;
+transition: 0.3s;
+	/* make the list unselectable */
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#content ul li:hover {
+	background-color: gold;
+	color: #fff;
+}
+
+#content ul li:checked {
+	text-decoration: line-through;
+}
+
+.saobutton {
+	background-color: #fff;
+	opacity: 1;
+	border: none;
+	padding: 1px;
+	text-transform: uppercase;
+	color: #000;
+	font-family: sao, Tahoma;
+	font-size: 9pt;
+	letter-spacing: 3px;
+}
+
+.bottom {
+	position: relative;
+	left: 0px;
+	bottom: 0px;
+	margin: 10px 0px 0px 0px;
+	padding: 10px 0px 0px 0px;
+}
+
+.tarea {
+	width: 220px;
+	font-family: sao;
+	letter-spacing: 1px;
+	padding: 5px 10px 5px 10px;
+	border: none;
+}
+
+#addtemp:focus {
+	border: none;
+}
+
+.icon-wrench,
+.icon-list-add,
+.icon-home {
+	cursor: pointer;
+	font-size: 13pt;
+	transition: 0.2s;
+	/* make the list unselectable */
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.icon-wrench:hover,
+.icon-list-add:hover,
+.icon-home:hover {
+	color: gold;
+}
+
+.none:link {
+	text-decoration: none;
+	color: white;
+}
+
+.btn {
+	text-decoration: none;
+	padding: 0px;
+	border: none;
+	background: none;
+	color: white;
+	margin: 0px;
+	font-size: 13pt;
+}
+
+span.clearAll {
+	display: block;
+	width: 50px;
+	padding: 0 10px 0px 10px;
+	margin: 10px auto 10px auto;
+	transition: 1s;
+	cursor: pointer;
+}
+
+span.clearAll:hover {
+	background: rgba(255, 0, 0, 0.8);
+}
+
+.gz {
+	display: block;
+	margin: 30px auto 30px auto;
+	
+}
+
+
